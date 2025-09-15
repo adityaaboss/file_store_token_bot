@@ -1,0 +1,22 @@
+services:
+  - type: web
+    name: file-store-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: "python file_store_token_bot.py"
+    envVars:
+      - key: BOT_TOKEN
+        sync: false
+      - key: OWNER_ID
+        sync: false
+      - key: MONGO_URL
+        sync: false
+      - key: DB_CHANNEL_ID
+        sync: false
+      - key: LOG_CHANNEL_ID
+        sync: false
+      - key: FILE_TTL_HOURS
+        value: "12"
+      - key: WEBHOOK_URL
+        sync: false
