@@ -32,10 +32,10 @@ Add the following env vars in Render:
 | Key            | Value (example)                                                                 |
 |----------------|---------------------------------------------------------------------------------|
 | `BOT_TOKEN`    | `` (your BotFather token)         |
-| `OWNER_ID`     | `5494945309` (your Telegram user ID)                                            |
-| `MONGO_URL`    | `mongodb+srv://<username>:<password>@cluster0.mongodb.net/?retryWrites=true`    |
-| `DB_CHANNEL_ID`| `-1002865033508`                                                                |
-| `LOG_CHANNEL_ID`| `-1002935516876`                                                               |
+| `OWNER_ID`     | `` (your Telegram user ID)                                            |
+| `MONGO_URL`    | ``    |
+| `DB_CHANNEL_ID`| ``                                                                |
+| `LOG_CHANNEL_ID`| ``                                                               |
 | `FILE_TTL_HOURS`| `12` (default expiry in hours)                                                 |
 | `WEBHOOK_URL`  | `https://<your-app-name>.onrender.com/webhook`                                  |
 
